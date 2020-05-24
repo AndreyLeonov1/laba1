@@ -31,6 +31,8 @@ public class CarTest {
       Car popo = new PoliceCar(3);
       Human h1 = new PoliceMan("Eric", 19);
       Human h2 = new PoliceMan("Mark", 19);
+      popo.PutInTransport(h1);
+      popo.PutInTransport(h2);
       popo.GetFromTransport(h1);
       popo.GetFromTransport(h2);
 
