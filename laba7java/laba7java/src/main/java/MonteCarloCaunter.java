@@ -5,7 +5,7 @@ public class MonteCarloCaunter {
     private double threads;
     private double iterations;
     private int radius = 1;
-    ArrayList<Double> AllCou    ntedPi = new ArrayList<Double>();
+    ArrayList<Double> AllCountedPi = new ArrayList<Double>();
 
     public MonteCarloCaunter(double Threads, double Iterations){
         this.threads = Threads;
